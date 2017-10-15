@@ -7,15 +7,38 @@ header {
 	overflow: auto;
 }
 header h1 {
-	padding-left: 2rem;
+	margin: 0rem;
+    padding: 1rem;
 }
-.card {
+/*.card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+}*/
 .container {
     padding: 2px 16px;
+}
+.fixed-header {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	height: 20rem;
+	background: #448AFF;
+}
+.fixed-header img {
+	margin-left: 0.5rem;
+}
+.fixed-header h1 {
+	color: white;
+	font-weight: 100;
+	font-size: 3rem;
+}
+.content-scroll {
+	position: inherit;
+    margin-top: -10rem;
+}
+header.container
+ {
+	padding: 1rem;
 }
