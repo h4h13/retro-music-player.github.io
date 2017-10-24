@@ -1,44 +1,79 @@
-body, html {
-padding: 0rem;
-margin: 0rem;
+body,
+html {
+    padding: 0rem;
+    margin: 0rem;
 }
+
 header {
-	padding: 2rem;
-	overflow: auto;
+    padding: 2rem;
+    overflow: auto;
 }
+
 header h1 {
-	margin: 0rem;
+    margin: 0rem;
     padding: 1rem;
 }
-/*.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-}
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}*/
-.container {
-    padding: 2px 16px;
-}
+
 .fixed-header {
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-	height: 20rem;
-	background: #448AFF;
+    height: 20rem;
+    width: 100%;
+    position: fixed;
+    background-image: -webkit-gradient(linear, 10% 0%, 50% 100%, color-stop(0%, #00E676), color-stop(100%, #3D5AFE));
 }
-.fixed-header img {
-	margin-left: 0.5rem;
+
+.header h1 {
+    font-size: 5rem;
 }
-.fixed-header h1 {
-	color: white;
-	font-weight: 100;
-	font-size: 3rem;
+
+.header img {
+    margin-left: 0.5rem;
 }
-.content-scroll {
-	position: inherit;
-    margin-top: -10rem;
+
+.header h1 {
+    color: white;
+    font-size: 3rem;
 }
-header.container
- {
-	padding: 1rem;
+
+.header h2 {
+    color: white;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.header {
+    position: inherit;
+    margin-top: -0rem;
+}
+
+header.container {
+    padding: 1rem;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h1 {
+    font-size: 4rem;
+}
+
+#welcome-content {
+    padding: 2rem;
+    text-align: center;
+    height: 32rem;
+    background-color: #69F0AE;
+}
+
+#welcome-content h1 {
+    font-weight: 100;
+}
+
+#welcome-content h6 {
+    font-weight: 100;
+}
+
+.card {
+    padding: 0rem;
 }
