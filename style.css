@@ -17,7 +17,7 @@ header h1 {
 .fixed-header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    height: 20rem;
+    height: 18rem;
     width: 100%;
     position: fixed;
     background-image: -webkit-gradient(linear, 10% 0%, 50% 100%, color-stop(0%, #00E676), color-stop(100%, #3D5AFE));
@@ -44,7 +44,7 @@ header h1 {
 
 .header {
     position: inherit;
-    margin-top: -0rem;
+    margin-top: 0rem;
 }
 
 header.container {
@@ -75,5 +75,35 @@ header.container {
 }
 
 .card {
+    margin: 0rem;
     padding: 0rem;
+}
+
+.main-navbar {
+    text-align: center;
+}
+
+ul {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul li {
+    text-align: center;
+    padding: 1rem;
+    display: table-cell;
+}
+
+ul li a:hover {
+    text-decoration: none;
+}
+.go-to-app:hover {
+    text-decoration: none;
+}
+.go-to-app {
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
 }
