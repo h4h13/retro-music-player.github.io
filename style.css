@@ -1,5 +1,12 @@
+@font-face {
+    font-family: circular;
+    src: url(fonts/circular_std_book.otf);
+    font-weight: bold;
+}
+
 body,
 html {
+    font-family: circular;
     padding: 0rem;
     margin: 0rem;
 }
@@ -17,10 +24,15 @@ header h1 {
 .fixed-header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    height: 18rem;
+    height: 100%;
     width: 100%;
     position: fixed;
     background-image: -webkit-gradient(linear, 10% 0%, 50% 100%, color-stop(0%, #00E676), color-stop(100%, #3D5AFE));
+}
+
+.header .title-container {
+    display: flex;
+    align-items: center;
 }
 
 .header h1 {
@@ -29,6 +41,10 @@ header h1 {
 
 .header img {
     margin-left: 0.5rem;
+}
+
+.header #google-play-button {
+    width: 20rem;
 }
 
 .header h1 {
@@ -83,6 +99,15 @@ header.container {
     text-align: center;
 }
 
+.body-content {
+    padding-top: 2rem;
+
+}
+.body-content h1 {
+    font-size: 5rem;
+}.body-content h2 {
+    font-size: 3rem;
+}
 ul {
     display: table;
     width: 100%;
@@ -100,9 +125,11 @@ ul li {
 ul li a:hover {
     text-decoration: none;
 }
+
 .go-to-app:hover {
     text-decoration: none;
 }
+
 .go-to-app {
     text-decoration: none;
     padding: 1rem 2rem 1rem 2rem;
