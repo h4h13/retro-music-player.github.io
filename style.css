@@ -9,13 +9,13 @@ html {
     font-family: circular;
     padding: 0rem;
     margin: 0rem;
+    background-color: #64FFDA: 
 }
+
 a:hover {
     text-decoration: none;
 }
-.header-content, .footer {
-    background-color: rgba(255,255,255, 0.5);
-}
+
 
 header {
     width: 100%;
@@ -28,30 +28,31 @@ header {
 header h2 {
     margin: 0rem;
     padding: 1rem;
-    color: white;
+    color: grey;
 }
+
 header h6 {
-color: rgba(0, 0, 0, 0.2);
- 
+    color: rgba(0, 0, 0, 0.2);
 }
+
 header .title-container {
     display: flex;
     align-items: center;
+    padding: 1rem;
 }
 
 .body-content h1 {
-    color: white;
+    color: darkslategrey;
 }
 
-.body-content #google-play-button {
+#google-play-button {
     width: 16rem;
     margin-left: -1rem;
 }
 
 .body-content h5 {
-    color: rgba(255, 255, 255, 0.75);
+    color: slategrey;
 }
-
 
 .fixed-header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -59,10 +60,9 @@ header .title-container {
     height: 100%;
     width: 100%;
     position: fixed;
-    background-image: -webkit-gradient(linear, 10% 0%, 50% 100%, color-stop(0%, #00E676), color-stop(100%, #3D5AFE));
 }
 
-.images{
+.images {
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -102,14 +102,10 @@ header .title-container {
 
 .body-content {
     padding-top: 2rem;
-
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+.footer {}
+
 .footer ul {
     margin-bottom: 0px;
     display: table;
@@ -125,8 +121,8 @@ header .title-container {
     display: table-cell;
 }
 
-.footer ul li a{
-    color: white;
+.footer ul li a {
+    color: grey;
 }
 
 .footer ul li a:hover {
@@ -142,15 +138,22 @@ header .title-container {
     padding: 1rem 2rem 1rem 2rem;
 }
 
-.change-log-content{
+.change-log-content {
     padding: 1rem;
 }
-.change-log-content h1{
-    color: white;
+
+.change-log-content h1 {
+    color: grey;
 }
+
 .change-log-content ul li {
     color: white;
 }
-.change-log-content ul li ul li{
+
+.change-log-content ul li ul li {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.media {
+    margin: 1rem;
 }
