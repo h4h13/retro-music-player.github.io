@@ -2,7 +2,12 @@
   background-image: url(logo.png);
    background-size: 200px 200px;
 }
-
+.progressBar {
+  background-color: rgb(238, 255, 65);
+}
+.background {
+  background: center no-repeat url(background.png);
+}
 .splash {
-  background-image: url(timber_logo_cast.png);
+  background-image: url(retro_music_app_logo_cast.png);
 }
