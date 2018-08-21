@@ -1,54 +1,71 @@
+@font-face {
+    font-family: circular;
+    src: url(fonts/circular_std_book.otf);
+    font-weight: bold;
+}
+
 body,
 html {
+    font-family: circular;
     padding: 0rem;
     margin: 0rem;
+    background-color: #64FFDA: 
 }
+
+a:hover {
+    text-decoration: none;
+}
+
 
 header {
-    padding: 2rem;
+    width: 100%;
+    padding: rem;
     overflow: auto;
+    position: inherit;
+    margin-top: 0rem;
 }
 
-header h1 {
+header h2 {
     margin: 0rem;
     padding: 1rem;
+    color: grey;
+}
+
+header h6 {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+header .title-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.body-content h1 {
+    color: darkslategrey;
+}
+
+#google-play-button {
+    width: 16rem;
+    margin-left: -1rem;
+}
+
+.body-content h5 {
+    color: slategrey;
 }
 
 .fixed-header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    height: 18rem;
+    height: 100%;
     width: 100%;
     position: fixed;
-    background-image: -webkit-gradient(linear, 10% 0%, 50% 100%, color-stop(0%, #00E676), color-stop(100%, #3D5AFE));
 }
 
-.header h1 {
-    font-size: 5rem;
-}
-
-.header img {
-    margin-left: 0.5rem;
-}
-
-.header h1 {
-    color: white;
-    font-size: 3rem;
-}
-
-.header h2 {
-    color: white;
-    padding-left: 1rem;
-    font-size: 1rem;
-}
-
-.header {
-    position: inherit;
-    margin-top: 0rem;
-}
-
-header.container {
-    padding: 1rem;
+.images {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .card-content {
@@ -56,7 +73,7 @@ header.container {
 }
 
 .card-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #welcome-content {
@@ -83,7 +100,14 @@ header.container {
     text-align: center;
 }
 
-ul {
+.body-content {
+    padding-top: 2rem;
+}
+
+.footer {}
+
+.footer ul {
+    margin-bottom: 0px;
     display: table;
     width: 100%;
     box-sizing: border-box;
@@ -91,23 +115,51 @@ ul {
     -webkit-box-sizing: border-box;
 }
 
-ul li {
+.footer ul li {
     text-align: center;
     padding: 1rem;
     display: table-cell;
 }
 
-ul li a:hover {
+.footer ul li a {
+    color: grey;
+}
+
+.footer ul li a:hover {
     text-decoration: none;
 }
+
 .go-to-app:hover {
     text-decoration: none;
 }
+
 .go-to-app {
     text-decoration: none;
     padding: 1rem 2rem 1rem 2rem;
 }
+<<<<<<< HEAD
 .faq-content h2 {text-align: center;padding: 2rem;}
 .faq-content  {
     padding: 2rem;
+=======
+
+.change-log-content {
+    padding: 1rem;
+}
+
+.change-log-content h1 {
+    color: grey;
+}
+
+.change-log-content ul li {
+    color: white;
+}
+
+.change-log-content ul li ul li {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.media {
+    margin: 1rem;
+>>>>>>> 5160c8a529c337545d3a094f15db0086f1d378ea
 }
