@@ -137,11 +137,6 @@ header .title-container {
     text-decoration: none;
     padding: 1rem 2rem 1rem 2rem;
 }
-<<<<<<< HEAD
-.faq-content h2 {text-align: center;padding: 2rem;}
-.faq-content  {
-    padding: 2rem;
-=======
 
 .change-log-content {
     padding: 1rem;
@@ -161,5 +156,4 @@ header .title-container {
 
 .media {
     margin: 1rem;
->>>>>>> 5160c8a529c337545d3a094f15db0086f1d378ea
 }
