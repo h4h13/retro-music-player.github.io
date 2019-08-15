@@ -1,0 +1,25 @@
+{
+  "name": "hemanth.web",
+  "version": "1.0.0",
+  "description": "One website for all Apps ",
+  "main": "bootstrap.min.js",
+  "scripts": {
+    "test": "run dog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h4h13/h4h13.github.io.git"
+  },
+  "keywords": [
+    "Hmm"
+  ],
+  "author": "Hemanth S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h4h13/h4h13.github.io/issues"
+  },
+  "homepage": "https://github.com/h4h13/h4h13.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.7.5"
+  }
+}
