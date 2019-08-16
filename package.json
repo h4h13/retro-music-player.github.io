@@ -21,5 +21,8 @@
   "homepage": "https://github.com/h4h13/h4h13.github.io#readme",
   "dependencies": {
     "bulma": "^0.7.5"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1"
   }
 }
