@@ -1,7 +1,11 @@
+body {
+  font-family: 'Product Sans Regular';
+}
+
 .has-bg-img {
   background: /* top, transparent red, faked with gradient */
   linear-gradient( rgba(12, 12, 12, 0.76), rgba(0, 0, 0, 0.651)), /* bottom, image */
-  url('/web-content/img/hemanth.jpg')center center;
+  url('/assets/img/hemanth.jpg')center center;
   background-size: cover;
 }
 
