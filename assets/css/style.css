@@ -12,3 +12,7 @@ body {
 div.is-grouped a {
   padding: 0.5rem;
 }
+
+.card {
+  margin-bottom: 0.5rem;
+}
